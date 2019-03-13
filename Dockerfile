@@ -1,9 +1,9 @@
 # SonarSource did not make official Docker images for SonarQube 7.1 and above (as of 2018-11-20)
-# This Dockerfile will build SonarQube 7.4 Developer Edition
+# This Dockerfile will build SonarQube 7.6 Developer Edition
 # Based on https://github.com/SonarSource/docker-sonarqube/blob/5d738964cc4b857ca5b399d6f0bb626b6710bac6/7.1/Dockerfile
 FROM openjdk:8
   
-ENV SONAR_VERSION=7.4 \
+ENV SONAR_VERSION=7.6 \
     SONARQUBE_HOME=/opt/sonarqube \
     # Database configuration
     # Defaults to using H2
